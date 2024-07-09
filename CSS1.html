@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*element selector*/
+        /*div{
+            background-color: rgb(252, 163, 11);
+        }*/
+        /*class selector*/
+        .abc{
+            background-color: indigo;
+        }
+        /*id selector*/
+        #xyz{
+            background-color: greenyellow;
+        }
+        /*child selector*/
+        div > p{
+            background-color: lightcoral;
+        }
+        /*descendant selector*/
+        div p{
+            background-color: lightskyblue;
+        }
+        /*universal selector*/
+        *{
+            padding: 5px;
+        }
+        /* pseudo selector */
+        a:link{
+            color: rgb(149, 16, 149);
+        }
+        a:hover{
+            color: rgb(10, 203, 203);
+        }
+        a:visited{
+            color: fuchsia;
+        }
+        a:active{
+            color: brown;
+        }
+        p:first-child{
+            background-color: mediumvioletred;
+        }
+    </style>
+</head>
+<body>
+    <div>Save environment from pollution.</div>
+    <div><p>I am first para.</p>
+    <p>I am second para</p></div>
+    <div class="abc">June 5 is world environment day.</div>
+    <div id="xyz">April 22 is Earth day.</div>
+    <div><article><p>I am descendant selector.</p></article></div>
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>
